@@ -1,0 +1,309 @@
+﻿/*STYLE SHEET*/
+body
+{   
+	width: 980px; height: 600px;
+	background-color: #000000;
+	margin:auto;
+}
+#body21
+{
+	background-color: black;
+	width: 980px; height: 600px;
+}
+#topBar
+{
+	background-image: url('Images/topImage.png');
+	border: 1px solid #FFFFFF;
+	border-radius: 20px;
+	color:#FFFFFF;
+	position : relative;
+	height: 120px; width : 980px;
+	top : 10px;
+}
+img.logoimage 
+{
+	position : absolute;
+	left : 0px; top: 15px;
+}
+#login
+{
+	position: relative; left: 750px; top:-90px;
+}
+#regBut
+{
+	position: relative; left: 100px; top:-39px;
+}
+h2.heloUsr
+{
+	position: relative; left: 40px; top:0px;
+	font-family: 'Comic Sans MS', serif;
+	color: red; 
+}
+#logoutBut
+{
+	position: relative; left: 70px; top: 20px;
+}
+#homebutton
+{
+	position: relative; left: 10px; top:-5px;
+	float:left;
+}
+#title
+{
+	position: relative; left: 80px; top:-10px;
+	color : red;
+	float:left;
+	font-family: 'Comic Sans MS', serif;
+}
+#phone
+{
+	position : relative;
+	left : -300px; top: 70px;
+	
+}
+
+#phoneno
+{
+	position : relative;
+	left : -260px; top: 20px;
+	
+}
+#logo2
+{
+	position : relative;
+	left : 320px; top : -465px;
+	width: 400px; height: 192px;
+}
+#menu
+{
+	background-color: #828282;
+	position : relative;
+	top : 60px; float:left;
+	width: 200px; height: 270px;
+	border: 1px solid #FFFFFF;
+	border-radius: 20px;
+}
+#menutable
+{
+	position : relative;
+	left : 10px; top : 10px;
+}
+
+#content
+{
+	background-color: #000000;
+	position : relative;
+	width: 765px; height : 350px;
+	top: 20px; float:right;
+	border: 1px solid #FFFFFF;
+	border-radius: 20px;
+	color : white;
+}
+
+#cartable
+{
+	position : absolute;
+	top: 30px; left : 10px;
+	color : white;
+	width: 750px; 
+	font-size: 18px;
+	font-family: 'Bree Serif', serif;
+}
+a.loginbutton{text-decoration : none;}
+
+.topRow
+{
+	color : black;
+	background-color: white;
+}
+#reservebutton
+{
+	position : absolute;
+	top: 250px; left : 630px;
+}
+#slideshow
+{
+	position : relative;
+	width: 765px; height : 350px;
+	top: 20px; float:right; right : -120px;
+}
+#footer
+{
+	background-image: url('Images/topImage.png');
+	position: relative; 
+	top:190px; 
+	width: 980px; height: 100px;
+	border: 1px solid #FFFFFF;
+	border-radius: 20px;
+}
+#contact
+{
+	position: relative; 
+	top:-125px; left : 5px;
+	color : white;
+	padding:0px 50px;
+	
+}
+
+.button {
+	
+	
+	width : 130px;
+	height : 30px;
+	font-family: 'Bree Serif', serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #fff;
+	text-shadow: 0px 1px 0 rgba(0,0,0,0.25);
+	
+	background: #000000;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	cursor: pointer;
+	
+	box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+	-moz-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+	-webkit-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+}
+.button:hover {
+	background: #828282;
+	border: 1px solid rgba(256,256,256,0.75);
+	
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.button:focus {
+	position: relative;
+	bottom: -1px;
+	
+	background: #56c2e1;
+	
+	box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+	-moz-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+	-webkit-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+}
+.loginbutton {
+	
+	
+	width : 90px;
+	height : 25px;
+	font-family: 'Bree Serif', serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #fff;
+	text-shadow: 0px 1px 0 rgba(0,0,0,0.25);
+	
+	background: #828282;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	cursor: pointer;
+	
+	box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+	-moz-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+	-webkit-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+}
+.loginbutton:hover {
+	background: #000000;
+	border: 1px solid rgba(256,256,256,0.75);
+	
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.loginbutton:focus {
+	position: relative;
+	bottom: -1px;
+	
+	background: #56c2e1;
+	
+	box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+	-moz-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+	-webkit-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+}
+.input2{
+	width: 200px;
+	padding: 3px 20px;
+
+	
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #9d9e9e;
+	text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+	text-align: center ;
+	
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+}
+
+
+.content1 {
+	padding: 0 30px 25px 25px;
+	background: #828282;
+}
+
+#wrapper {
+	
+	width: 300px;
+	height: 400px;
+	margin: 70px auto;
+}
+
+.input3{
+	width: 300px;
+	padding: 7px 40px;
+
+	
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	font-color: black;
+	text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+	text-align: center ;
+	
+	background: #fff;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+}
+.login-form {
+	width: 350px;
+	margin:0 auto;
+	position: relative;
+	
+	background: #828282;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	
+	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+
+.login-form .header {
+	padding: 15px 30px 30px 30px;
+}
+
+.footer2 {
+	padding: 25px 30px 40px 30px;
+	overflow: auto;
+	
+	background: white;
+	border-top: 1px solid #fff;
+	
+	box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+	-moz-box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+	-webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+}

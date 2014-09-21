@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC >
+<html>
+  <head>
+    <title>Registration Form</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="STYLESHEET" type="text/css" href="StyleSheet.css" />
+  </head>
+  <body>
+	<div id="wrapper">
+	
+		
+		<form name="phpPage" method="post" class="login-form" action="Registration1.php" > 
+			<div class="header">
+			<h1>Quantum Sign Up</h1>
+			<span><p>Please fill out this form with your details.<br></p><span/>
+			</div>
+		
+			<div class="content1">
+				<p><input type="text" class="input3" placeholder="Pick a username" required pattern="\w+" name="username"></p>
+				<p>
+					<input type="password" class="input3" placeholder="Enter a password" required pattern="\w{6}" name="password" onchange="
+					this.setCustomValidity(this.validity.patternMismatch ? 'Password must contain at least 6 characters' : '');
+					if(this.checkValidity()) form.pwd2.pattern = this.value;">
+				</p>
+				<p>
+					<input type="password" class="input3" placeholder="Confirm Password" required pattern="\w{6}" name="pwd2" onchange="
+					this.setCustomValidity(this.validity.patternMismatch ? 'Please enter the same Password as above' : '');">
+				</p>
+				<p><input type="text" class="input3" placeholder="Your First Name" name="firstname" size="40"></p>
+				<p><input type="text" class="input3" placeholder="Your Surname" name="surname" size="40"></p>
+				<p><input type="text" class="input3" placeholder="Current address" name="addressline1" size="40"></p>
+				<p><input type="text" class="input3" placeholder="Current address" name="addressline2" size="40"></p>
+				<p><input type="text" class="input3" placeholder="City of resistance" name="city" size="40"></p>
+				<p><input type="int" class="input3" placeholder="Telephone Number" name="telephone" size="40"></p>
+				
+				<p><input type="int" class="input3" placeholder="Mobile Number" required pattern="\w{10}" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Mobile must contain 10 numbers' : '');" name="mobile" size="40"></p>
+			 </div>
+			 
+				<div class="footer2">
+					<button class="button" onclick="javascript:window.location.href='quantum_super_cars.php'"  >Return</button>
+					<input type="reset" class="button" value="Reset!"/>
+					<input type="submit"  name="submitButton" value="Send" class="button" id="confirm" />
+					
+			    </div>
+		 </form>
+	</div>	  
+	  
+	  
+	
+	
+	
+  </body>
+</html>
+
+

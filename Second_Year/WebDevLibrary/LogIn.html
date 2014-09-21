@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC >
+<html>
+<head>
+    
+    <title>Contact us</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="STYLESHEET" type="text/css" href="loginstyle1.css" />
+     
+</head>
+
+
+<body>
+	<div id="wrapper">
+
+		<form name="formlog" class="login-form" method="post" action="LogIn.php">
+		
+			<div class="header">
+			<h1>Login Form</h1>
+			<span>Please type your UserName and password below to log into the library website.</span>
+			</div>
+		
+			<div class="content">
+				<p><input type="text" class="input2" placeholder="Enter Username" required pattern="\w+" name="username"></p>
+				<p>
+					<input type="password" class="input2" placeholder="Enter Password" required pattern="\w{6}" name="password" onchange="
+					this.setCustomValidity(this.validity.patternMismatch ? 'Password must contain at least 6 characters' : '');">
+				</p>
+				
+			</div>
+
+			<div class="footer">
+			
+			<input type="submit"  name="submitButton" value="Send" class="button" id="confirm" />
+			<button class="button" onclick="javascript:window.location.href='Registration.html'"  >Register</button>
+			</div>
+		
+		</form>
+
+	</div>
+	
+</body>
+</html>
+

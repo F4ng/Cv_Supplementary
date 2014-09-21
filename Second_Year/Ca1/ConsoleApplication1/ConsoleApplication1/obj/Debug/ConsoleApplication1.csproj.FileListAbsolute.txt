@@ -1,0 +1,11 @@
+C:\Users\Tomas\Desktop\oopFiles\Ca1\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Tomas\OOP\Ca1\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Tomas\OOP\Ca1\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Tomas\OOP\Ca1\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Tomas\OOP\Ca1\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Tomas\OOP\Ca1\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Tomas\OOP\Ca1\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Tomas\OOP\Ca1\ConsoleApplication1\ConsoleApplication1\bin\Debug\TextFile1.txt
+D:\CvGit\Second_Year\Ca1\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\CvGit\Second_Year\Ca1\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\CvGit\Second_Year\Ca1\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
